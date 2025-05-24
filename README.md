@@ -2,7 +2,34 @@
 
 A RESTful backend API for an event scheduling and collaboration system, built with **Django** and **Django REST Framework**.
 
----
+## 📁 Project Structure - NeoFi Event Management Backend
+
+This document outlines the structure and purpose of key files and directories in the project.
+
+```
+ott-movie-platform/
+├── manage.py
+├── requirements.txt
+├── db.sqlite3
+├── .env.example
+├── neofi_backend/                 # Main Django project folder
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── events/                       # Django app
+│   ├── __init__.py
+│   ├── apps.py
+│   ├── permissions.py
+│   ├── models.py
+│   ├── views.py
+│   └── urls.py
+
+```
+
+## Root Directory
+
 
 ## Features
 
